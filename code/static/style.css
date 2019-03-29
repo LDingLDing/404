@@ -1,0 +1,141 @@
+html {
+  background-color: rgb(231, 226, 226);
+	color: rgb(18, 18, 18);
+}
+body {
+	font-family: graphik-001-web, system-ui, sans-serif;
+	min-height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+@-webkit-keyframes shrink{
+	0%{-webkit-clip:rect(56px,9999px,61px,0);clip:rect(56px,9999px,61px,0);}
+	5%{-webkit-clip:rect(76px,9999px,68px,0);clip:rect(76px,9999px,68px,0);}
+	10%{-webkit-clip:rect(28px,9999px,8px,0);clip:rect(28px,9999px,8px,0);}
+	15%{-webkit-clip:rect(64px,9999px,25px,0);clip:rect(64px,9999px,25px,0);}
+	20%{-webkit-clip:rect(20px,9999px,14px,0);clip:rect(20px,9999px,14px,0);}
+	25%{-webkit-clip:rect(66px,9999px,74px,0);clip:rect(66px,9999px,74px,0);}
+	30%{-webkit-clip:rect(19px,9999px,74px,0);clip:rect(19px,9999px,74px,0);}
+	35%{-webkit-clip:rect(28px,9999px,3px,0);clip:rect(28px,9999px,3px,0);}
+	40%{-webkit-clip:rect(84px,9999px,50px,0);clip:rect(84px,9999px,50px,0);}
+	45%{-webkit-clip:rect(21px,9999px,42px,0);clip:rect(21px,9999px,42px,0);}
+	50%{-webkit-clip:rect(62px,9999px,16px,0);clip:rect(62px,9999px,16px,0);}
+	55%{-webkit-clip:rect(74px,9999px,38px,0);clip:rect(74px,9999px,38px,0);}
+	60%{-webkit-clip:rect(26px,9999px,74px,0);clip:rect(26px,9999px,74px,0);}
+	65%{-webkit-clip:rect(92px,9999px,74px,0);clip:rect(92px,9999px,74px,0);}
+	70%{-webkit-clip:rect(24px,9999px,28px,0);clip:rect(24px,9999px,28px,0);}
+	75%{-webkit-clip:rect(5px,9999px,32px,0);clip:rect(5px,9999px,32px,0);}
+	80%{-webkit-clip:rect(44px,9999px,82px,0);clip:rect(44px,9999px,82px,0);}
+	85%{-webkit-clip:rect(71px,9999px,77px,0);clip:rect(71px,9999px,77px,0);}
+	90%{-webkit-clip:rect(18px,9999px,57px,0);clip:rect(18px,9999px,57px,0);}
+	95%{-webkit-clip:rect(67px,9999px,22px,0);clip:rect(67px,9999px,22px,0);}
+	100%{-webkit-clip:rect(2px,9999px,31px,0);clip:rect(2px,9999px,31px,0);}
+} 
+@keyframes shrink{
+	0%{-webkit-clip:rect(56px,9999px,61px,0);clip:rect(56px,9999px,61px,0);}
+	5%{-webkit-clip:rect(76px,9999px,68px,0);clip:rect(76px,9999px,68px,0);}
+	10%{-webkit-clip:rect(28px,9999px,8px,0);clip:rect(28px,9999px,8px,0);}
+	15%{-webkit-clip:rect(64px,9999px,25px,0);clip:rect(64px,9999px,25px,0);}
+	20%{-webkit-clip:rect(20px,9999px,14px,0);clip:rect(20px,9999px,14px,0);}
+	25%{-webkit-clip:rect(66px,9999px,74px,0);clip:rect(66px,9999px,74px,0);}
+	30%{-webkit-clip:rect(19px,9999px,74px,0);clip:rect(19px,9999px,74px,0);}
+	35%{-webkit-clip:rect(28px,9999px,3px,0);clip:rect(28px,9999px,3px,0);}
+	40%{-webkit-clip:rect(84px,9999px,50px,0);clip:rect(84px,9999px,50px,0);}
+	45%{-webkit-clip:rect(21px,9999px,42px,0);clip:rect(21px,9999px,42px,0);}
+	50%{-webkit-clip:rect(62px,9999px,16px,0);clip:rect(62px,9999px,16px,0);}
+	55%{-webkit-clip:rect(74px,9999px,38px,0);clip:rect(74px,9999px,38px,0);}
+	60%{-webkit-clip:rect(26px,9999px,74px,0);clip:rect(26px,9999px,74px,0);}
+	65%{-webkit-clip:rect(92px,9999px,74px,0);clip:rect(92px,9999px,74px,0);}
+	70%{-webkit-clip:rect(24px,9999px,28px,0);clip:rect(24px,9999px,28px,0);}
+	75%{-webkit-clip:rect(5px,9999px,32px,0);clip:rect(5px,9999px,32px,0);}
+	80%{-webkit-clip:rect(44px,9999px,82px,0);clip:rect(44px,9999px,82px,0);}
+	85%{-webkit-clip:rect(71px,9999px,77px,0);clip:rect(71px,9999px,77px,0);}
+	90%{-webkit-clip:rect(18px,9999px,57px,0);clip:rect(18px,9999px,57px,0);}
+	95%{-webkit-clip:rect(67px,9999px,22px,0);clip:rect(67px,9999px,22px,0);}
+	100%{-webkit-clip:rect(2px,9999px,31px,0);clip:rect(2px,9999px,31px,0);}
+}
+
+.main-inner	{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  max-width: 740px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.main-header {
+  width: 100%;
+  z-index: 10;
+  padding: 32px 0px 24px;
+}
+.btn-theme {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIC8+CiAgICA8cGF0aCBkPSJNNi43NiA0Ljg0bC0xLjgtMS43OS0xLjQxIDEuNDEgMS43OSAxLjc5IDEuNDItMS40MXpNNCAxMC41SDF2Mmgzdi0yem05LTkuOTVoLTJWMy41aDJWLjU1em03LjQ1IDMuOTFsLTEuNDEtMS40MS0xLjc5IDEuNzkgMS40MSAxLjQxIDEuNzktMS43OXptLTMuMjEgMTMuN2wxLjc5IDEuOCAxLjQxLTEuNDEtMS44LTEuNzktMS40IDEuNHpNMjAgMTAuNXYyaDN2LTJoLTN6bS04LTVjLTMuMzEgMC02IDIuNjktNiA2czIuNjkgNiA2IDYgNi0yLjY5IDYtNi0yLjY5LTYtNi02em0tMSAxNi45NWgyVjE5LjVoLTJ2Mi45NXptLTcuNDUtMy45MWwxLjQxIDEuNDEgMS43OS0xLjgtMS40MS0xLjQxLTEuNzkgMS44eiIgZmlsbD0iIzEyMTIxMiIvPgogIDwvc3ZnPg==) no-repeat center center / cover;
+}
+.title {
+	position: relative;
+	display: inline;
+	margin-bottom: 16px;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2em;
+}
+.title::after, 
+.title::before {
+  width: 100%;
+  text-align: center;
+  clip: rect(0, 900px, 0, 0);
+  content: "404 Page Not Found";
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+}
+.title::before {
+	animation: 3s linear 0s infinite alternate-reverse none running shrink;
+	left: -2px;
+	text-shadow: 1px 0 #00f;
+}
+.title::after {
+	animation: 2s linear 0s infinite alternate-reverse none running shrink;
+  left: 2px;
+  text-shadow: rgb(255, 0, 0) -1px 0px;
+}
+.subtitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.8em;
+}
+.footer-container {
+	width: 100%;
+  margin-top: 40px;
+  font-size: 14px;
+  padding: 16px 0px 32px;
+  border-top: 1px solid rgb(18, 18, 18);
+}
+.footer-container a {
+    margin: 0px 8px;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+.dark {
+	background: rgb(18, 18, 18);
+	color: rgb(231, 226, 226);
+}
+.dark .footer-container{
+  border-top: 1px solid rgb(231, 226, 226);
+}
+.dark .btn-theme {
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8cGF0aCBmaWxsPSJub25lIiBkPSJNMCAwaDI0djI0SDBWMHoiIC8+CiAgICA8cGF0aCBkPSJNNi43NiA0Ljg0bC0xLjgtMS43OS0xLjQxIDEuNDEgMS43OSAxLjc5ek0xIDEwLjVoM3YySDF6TTExIC41NWgyVjMuNWgtMnpNMTkuMDQgMy4wNDVsMS40MDggMS40MDctMS43OSAxLjc4OS0xLjQwNy0xLjQwN3pNMTcuMjQgMTguMTZsMS43OSAxLjggMS40MS0xLjQxLTEuOC0xLjc5ek0yMCAxMC41aDN2MmgtM3pNMTIgNS41Yy0zLjMxIDAtNiAyLjY5LTYgNnMyLjY5IDYgNiA2IDYtMi42OSA2LTYtMi42OS02LTYtNnptMCAxMGMtMi4yMSAwLTQtMS43OS00LTRzMS43OS00IDQtNCA0IDEuNzkgNCA0LTEuNzkgNC00IDR6TTExIDE5LjVoMnYyLjk1aC0yek0zLjU1IDE4LjU0bDEuNDEgMS40MSAxLjc5LTEuOC0xLjQxLTEuNDF6IiBmaWxsPSIjZmNmZGZmIi8+Cjwvc3ZnPgo=) no-repeat center center / cover;
+}

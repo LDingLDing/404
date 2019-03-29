@@ -1,0 +1,23 @@
+{
+  "name": "404",
+  "version": "1.0.0",
+  "description": "No framework, so so easy 404 Page, to take away is to use.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LDingLDing/404.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LDingLDing/404/issues"
+  },
+  "homepage": "https://github.com/LDingLDing/404#readme"
+}

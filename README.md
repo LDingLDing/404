@@ -1,4 +1,4 @@
-# 404 Page
+# :rainbow: 404 Page
 
 No framework, so so easy 404 Page, to take away is to use.
 
@@ -29,7 +29,7 @@ in this page's footer, you can set some links
 modify `index.html` , find function `setLinks`, send params in the function
 
 e.g.
-```javascipr
+```javascript
 setLinks([
   {name: 'Home', url: 'http://www.liluhui.cn'},
   {name: 'Contact', url: 'http://www.liluhui.cn/contact', target: '_blank'}
